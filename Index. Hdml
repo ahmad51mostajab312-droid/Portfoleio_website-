@@ -1,21 +1,188 @@
-{
-        transform: rotateX(20deg) rotateY(360deg);
-      }
-    }
-  </style>
-</head>
+
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio 3D</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #080808;
+  color: white;
+  min-height: 100vh;
+}150px;
+  height: 150px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 8s linear infinite;
+  margin-bottom: 50px;
+}
+
+.face {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  background: rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}150px;
+  height: 150px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 8s linear infinite;
+  margin-bottom: 50px;
+}
+
+.face {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  background: rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}150px;
+  height: 150px;
+  position: relative;
+  transform-style: preserve-3d;
+  animation: rotate 8s linear infinite;
+  margin-bottom: 50px;
+}
+
+.face {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  background: rgba(255,255,255,0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+}.top {
+  transform: rotateX(90deg) translateZ(75px);
+}
+
+.bottom {
+  transform: rotateX(-90deg) translateZ(75px);
+}
+
+@keyframes rotate {
+  from {
+    transform: rotateX(0deg) rotateY(0deg);
+  }
+
+  to {
+    transform: rotateX(360deg) rotateY(360deg);
+  }
+}font-size: 19px;
+  color: #cccccc;
+  margin-bottom: 30px;
+  line-height: 1.8;
+}
+
+.button {
+  display: inline-block;
+  padding: 14px 30px;
+  border: 1px solid white;
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background: white;
+  color: black;
+}
+
+section h2 {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+.services {
+  max-width: 900px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  padding: 30px 20px;
+  border: 1px solid #333;
+  border-radius: 20px;
+  background: #111;
+  transition: 0.3s;
 
 <body>
 
-  <div class="container">
-    <h1>به سایت من خوش آمدید</h1>
+<header>
 
-    <p>
-      طراحی سایت و خدمات دیجیتال
-    </p>
+<div class="cube">
+  <div class="face front">3D</div>
+  <div class="face back">WEB</div>
+  <div class="face right">DESIGN</div>
+  <div class="face left">CODE</div>
+  <div class="face top">CREATIVE</div>
+  <div class="face bottom">STUDIO</div>
+</div>
 
-    <div class="box"></div>
-  </div>
+<h1>Portfolio 3D</h1>
+
+<p>طراحی سایت، دیجیتال مارکتینگ و طراحی خلاقانه</p>
+
+<a href="#services" class="button">مشاهده خدمات</a>
+
+</header
+این قسمت را کپی کن و دقیقاً بعد از قسمت ۶ پیست کن:
+<section id="services">
+
+<h2>خدمات من</h2>
+
+<div class="services">
+
+<div class="card">
+<h3>طراحی سایت</h3>
+<p>طراحی سایت‌های مدرن و حرفه‌ای</p>
+</div>
+
+<div class="card">
+<h3>طراحی 3D</h3>
+<p>ساخت جلوه‌های سه‌بعدی برای وب</p>
+</div>
+
+<div class="card">
+<h3>دیجیتال مارکتینگ</h3>
+<p>کمک به رشد و دیده‌شدن کسب‌وکار</p>
+</div>
+
+<div class="card">
+<h3>طراحی لوگو</h3>
+<p>طراحی هویت بصری و لوگوی حرفه‌ای</p>
+</div>
+
+</div>
+
+</sectionHTML
+<footer>
+© 2026 Portfolio 3D
+</footer>
 
 </body>
-</html>
+</html
